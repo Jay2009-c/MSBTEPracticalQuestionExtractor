@@ -67,7 +67,7 @@ Execute the Python file from your terminal: 
 
 ```bash
 
-python3 extractor.py
+python3 ManualQuestionExtractor.py
 ```
 
 ### Step 3: Get Your Output
