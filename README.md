@@ -72,7 +72,7 @@ python3 ManualQuestionExtractor.py
 
 ### Step 3: Get Your Output
 
-Once the process is complete, a new text file named extracted_practicals.txt will appear in your folder containing all the sorted questions! 
+Once the process is complete, a new text file named extracted_practicals.txt will appear in your folder containing all the sorted questions. 
 
 ### ⚙️ Advanced Usage (Optional)
 
