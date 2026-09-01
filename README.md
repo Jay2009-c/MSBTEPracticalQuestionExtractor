@@ -28,7 +28,7 @@ Open your terminal (Linux/Mac) or Command Prompt (Windows). 
 
 To keep your computer organized, create and activate an isolated virtual environment: 
 
-bash
+```bash
 
 # Create the environment
 python3 -m venv myenv
@@ -38,18 +38,14 @@ source myenv/bin/activate
 
 # Activate it (Windows Command Prompt)
 myenv\Scripts\activate
-
-Use code with caution.
-
+```
 ### 3. Install PyMuPDF
 
 Once your environment is active, install the required library: 
 
-bash
-
+```bash
 pip install PyMuPDF
-
-Use code with caution.
+```
 
 ### 📖 How to Use
 
@@ -57,24 +53,22 @@ Use code with caution.
 
 Place the lab manual PDF you want to extract text from inside the same folder as the script. Rename your PDF file to input.pdf. 
 
-text
+```text
 
 your-project-folder/
 ├── extractor.py       (This script)
 ├── input.pdf          (Your PDF manual)
 └── myenv/             (Your virtual environment folder)
-
-Use code with caution.
+```
 
 ### Step 2: Run the Script
 
 Execute the Python file from your terminal: 
 
-bash
+```bash
 
 python3 extractor.py
-
-Use code with caution.
+```
 
 ### Step 3: Get Your Output
 
@@ -84,17 +78,16 @@ Once the process is complete, a new text file named extracted_practicals.txt wil
 
 If you don't want to rename your files to input.pdf and extracted_practicals.txt, you can pass custom filenames directly into the terminal command: 
 
-bash
+```bash
 
 python3 extractor.py my_manual.pdf my_output_questions.txt
-
-Use code with caution.
+```
 
 ### 📝 Example Output Format
 
 The generated text file will look like this: 
 
-text
+```text
 
 Practical 1: Introduction to Data Types
 
@@ -107,5 +100,4 @@ Practical-Related Questions
 * P1.2: How do you verify the shape of a matrix?
 
 --------------------------------------------------------------------------------
-
-Use code with caution.
+```
