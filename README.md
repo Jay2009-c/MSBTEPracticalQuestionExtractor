@@ -80,7 +80,7 @@ If you don't want to rename your files to input.pdf and extracted_practicals.txt
 
 ```bash
 
-python3 extractor.py my_manual.pdf my_output_questions.txt
+python3 ManualQuestionExtractor.py my_manual.pdf my_output_questions.txt
 ```
 
 ### 📝 Example Output Format
@@ -89,15 +89,15 @@ The generated text file will look like this: 
 
 ```text
 
-Practical 1: Introduction to Data Types
+Practical 1: .....
 
 Exercises
-* E1.1: Explain the difference between discrete and continuous data.
-* E1.2: Identify the data type for "Temperature of a room".
+* E1.1: .....
+* E1.2: ......
 
 Practical-Related Questions
-* P1.1: What library is used to handle arrays in Python?
-* P1.2: How do you verify the shape of a matrix?
+* P1.1: ......
+* P1.2: ......
 
 --------------------------------------------------------------------------------
 ```
