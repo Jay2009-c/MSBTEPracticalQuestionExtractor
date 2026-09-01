@@ -56,7 +56,7 @@ Place the lab manual PDF you want to extract text from inside the same folder as
 ```text
 
 your-project-folder/
-├── extractor.py       (This script)
+├── ManualQuestionExtractor.py       (This script)
 ├── input.pdf          (Your PDF manual)
 └── myenv/             (Your virtual environment folder)
 ```
