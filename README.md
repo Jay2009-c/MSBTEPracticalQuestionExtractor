@@ -1,6 +1,6 @@
 ### PDF Lab Manual Extractor
 
-A lightweight Python tool that automatically extracts **Exercises** and **Practical-Related Questions** from university lab manuals and compiles them into a clean, easy-to-read text file. 
+A lightweight Python tool that automatically extracts **Exercises** and **Practical-Related Questions** from MSBTE lab manuals and compiles them into a clean, easy-to-read text file. 
 
 This script is specifically optimized to filter out repetitive headers, course codes, and blank answer spaces, leaving you with just the questions you need. 
 
