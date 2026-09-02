@@ -135,7 +135,7 @@ def normalized_letters(text):
 
 
 HEADER_CANONICAL = (
-    "statisticalmodellingformachinelearning"
+    "datastructureusingpython"
 )
 
 
@@ -155,8 +155,8 @@ def is_course_code(line):
     )
 
     return compact in {
-        "coursecode313307",
-        "courscode313307"
+        "coursecode313306",
+        "courscode313306"
     }
 
 
